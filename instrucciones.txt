@@ -1,0 +1,31 @@
+BASE DE DATOS RELACIONAL
+1. Revisar ".\estructura\estructura.png"
+2. Crear la base de datos con el nombre "correosTX"
+3. Ejecutar ".\estructura\tablas.sql"
+	3.1 Para eliminar todas las tablas, se debe ejecutar ".\estructura\tablasDrop.sql"
+4. Ejecutar ".\inserts\insertsProvincias.sql"
+5. Ejecutar ".\inserts\insertsCantones.sql"
+6. Ejecutar ".\inserts\insertsDistritos.sql"
+7. Ejecutar ".\inserts\insertsOficinas.sql"
+8. Ejecutar ".\inserts\insertsAuxiliares.sql"
+9. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsEmpleados.sql"
+10. Ejecutar ".\bulks\insertsEmpleados.sql"
+11. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsClientes.sql"
+12. Ejecutar ".\bulks\insertsClientes.sql"
+11. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsFacturas.sql"
+12. Ejecutar ".\bulks\insertsFacturas.sql"
+13. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsPaqueteria.sql"
+14. Ejecutar ".\bulks\insertsPaqueteria.sql"
+15. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsHistorialPaqueteria.sql"
+16. Ejecutar ".\bulks\insertsHistorialPaqueteria.sql"
+17. Modificar como se indica en el archivo y ejecutar ".\bulks\insertsDetallesFacturas.sql"
+18. Ejecutar ".\bulks\insertsDetallesFacturas.sql"
+
+ALMACEN
+1. Crear la base de datos con el nombre "correosSA".
+2. Crear los schemas "ext" y "tra".
+3. Ejecutar el script ".\estructura\copia.sql" para insertar los datos de la base de datos transaccional en el almacen.
+	3.1 Comprobar que todos los datos fueron copiados correctamente con selects.
+4. Ejecutar el script ".\estructura\almacen.sql" para crear la base de datos multidimencional en el schema tra.
+5. Crear la base de datos con el nombre "correosDW".
+6. Ejecutar el script ".\estructura\dw.sql" para llenar la base de datos.
